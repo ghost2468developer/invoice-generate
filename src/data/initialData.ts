@@ -1,4 +1,4 @@
-import { ProductLine, Invoice } from './types'
+import { Invoice, ProductLine } from './types'
 
 export const initialProductLine: ProductLine = {
   description: '',
@@ -14,12 +14,12 @@ export const initialInvoice: Invoice = {
   name: '',
   companyAddress: '',
   companyAddress2: '',
-  companyCountry: 'United States',
+  companyCountry: 'South Africa',
   billTo: 'Bill To:',
   clientName: '',
   clientAddress: '',
   clientAddress2: '',
-  clientCountry: 'United States',
+  clientCountry: 'South Africa',
   invoiceTitleLabel: 'Invoice#',
   invoiceTitle: '',
   invoiceDateLabel: 'Invoice Date',
